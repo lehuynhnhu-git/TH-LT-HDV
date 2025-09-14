@@ -22,4 +22,16 @@ To execute this project just type
 ```
 npm start
 ```
+--------------------------------------------14/09/2025 lab04-------------------------------------------------
+echo "# TH-LT-HDV - drug-monitor upgrades
+- CRUD + Validate middleware
+- Error handlers (404 & centralized)
+- Purchase function (stock deduction + Purchase model)
+- Tested via browser & Postman
+" > README.md
+
+git add README.md
+git commit -m "docs: add README with lab04 upgrades"
+git push
+
 
