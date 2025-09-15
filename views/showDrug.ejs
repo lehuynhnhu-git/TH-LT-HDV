@@ -1,9 +1,0 @@
-<form action="/drugs/<%= drug._id %>/purchase" method="POST" style="margin-top:16px">
-    <label>Quantity</label>
-    <input type="number" name="quantity" min="1" required>
-    <button type="submit">Purchase</button>
-</form>
-
-<% if (typeof purchased !== 'undefined' && purchased) { %>
-    <p>✅ Purchased successfully.</p>
-    <% } %>
